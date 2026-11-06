@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="bege">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cremes Capilares | Cachos & Café</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="secao" data-categoria="cremes">
+    <h1 class="titulo">Cremes capilares</h1>
+    <p class="subtitulo">Hidratação, definição e controle do frizz para cachos soltos e com movimento.</p>
+
+    <div class="filtros">
+      <input type="search" id="busca" placeholder="🔎 Buscar produto...">
+      <select id="ordem">
+        <option value="padrao">Ordenar por</option>
+        <option value="menor">Menor preço</option>
+        <option value="maior">Maior preço</option>
+        <option value="nome">Nome (A-Z)</option>
+      </select>
+    </div>
+
+    <div id="grid" class="grid-produtos"></div>
+    <p id="vazio" class="vazio" hidden>Nenhum produto encontrado.</p>
+  </main>
+
+  <div id="footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
